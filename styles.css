@@ -1,0 +1,100 @@
+.head{
+    height: 250px;
+    width: 250px;
+    background-color: #0695DD;
+    border-radius: 50% 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+.eye1, .eye2{
+    height: 70px;
+    width: 60px;
+    background-color: #F1F1F1;
+    /* margin: 50px auto; */
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    border: 1px solid black;
+    /* z-index: 2; */
+}
+.eye1{
+    top: 20px;
+    left: 50%;
+}
+.eye2{
+    top: 20px;
+    left: 45%;
+}
+.eyeball{
+    background-color: black;
+    height: 30px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 30px auto 0;
+}
+
+.reflection{
+    height: 10px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #F1F1F1;
+    position: absolute;
+}
+
+.reflection1{
+    top:40px;
+    left: 22px;
+}
+.reflection2{
+    top:40px;
+    right: 22px;
+}
+
+.nose{
+    height: 50px;
+    width: 50px;
+    background-color: #F1040D;
+    margin: 70px auto 0;
+    border: 1px solid black;
+    border-radius: 50%;
+    /* z-index: 45; */
+    position: relative;
+}
+
+.reflectionNose{
+    background-color: #F1F1F1;
+    height: 15px;
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    border-radius: 40%;
+}
+.mouth{
+    height: 200px;
+    width: 220px;
+    background-color: #F1F1F1;
+    position: absolute;
+    top: 50px;
+    left: 465px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.nose-smile-connector{
+    position: relative;
+    transform: rotate(90deg);
+    height: 2px;
+    width: 80px;
+    background-color: black;
+    border: black;
+    margin: 38px auto 0;
+}
+.smile{
+    position: relative;
+    margin: 37px auto;
+    height: 1px;
+    width: 105px;
+    background-color: black;
+    border: 1px solid black;
+}
